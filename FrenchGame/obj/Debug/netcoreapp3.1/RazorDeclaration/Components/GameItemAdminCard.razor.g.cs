@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FrenchGame.Pages
+namespace FrenchGame.Components
 {
     #line hidden
     using System;
@@ -103,14 +103,40 @@ using FrenchGame.Components;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/index")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class GameItemAdminCard : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 28 "/Users/mandeba/Projects/FrenchGame/FrenchGame/Components/GameItemAdminCard.razor"
+       
+    [Parameter]
+    public GameItemModel GameItem { get; set; }
+    BSModal EditItem = new BSModal();
+    
+    string ClassName = "admin-card";
+
+    private void OnMouseOver()
+    {
+        ClassName = "admin-card admin-card-hover";
+    }
+
+    private void OnMouseOut()
+    {
+        ClassName = "admin-card";
+    }
+
+    private void OnDblClick()
+    {
+        EditItem.Show();
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

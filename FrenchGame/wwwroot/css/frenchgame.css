@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.table-header {
+    font-size: large;
+    color: dimgray;
+    font-weight: bold;
+    
+}
+.admin-card {
+    font-size:medium;
+    color:dimgray;
+    
+}
+
+.admin-card-hover {
+    background-color: rgb(240,240,240);
+}

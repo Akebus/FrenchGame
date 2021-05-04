@@ -13,91 +13,91 @@ namespace FrenchGame
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 1 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 2 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 3 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 4 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 5 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 6 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 7 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 8 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using FrenchGame;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 9 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using FrenchGame.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 10 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using BlazorStrap;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 11 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using FrenchGame.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 12 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using FrenchGame.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\akeen\source\repos\FrenchGame\FrenchGame\_Imports.razor"
+#line 13 "/Users/mandeba/Projects/FrenchGame/FrenchGame/_Imports.razor"
 using FrenchGame.Components;
 
 #line default

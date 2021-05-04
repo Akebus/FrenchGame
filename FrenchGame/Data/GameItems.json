@@ -1,16 +1,25 @@
 [
     {
-        "french": "Bonjour",
-        "english": "Hello"
+      "Id": "1",
+      "Tags": [ "word", "basic", "greetings" ],
+      "Difficulty": "1",
+        "French": "Bonjour",
+        "English": "Hello"
     },
-    {
-        "french": "Chien",
-        "english": "Dog"
-    },
-    {
-        "french": "Tu habite ou?",
-        "english": "Where do you live f ijsjf sadfljsadfskfiwaejfisfsadfljslkdfjsafdjsdfjskfjiös?"
-    }
+  {
+    "Id": "2",
+    "Tags": [ "word", "basic", "pet" ],
+    "Difficulty": "1",
+    "French": "Chien",
+    "English": "Dog"
+  },
+  {
+    "Id": "3",
+    "Tags": [ "phrase", "basic", "greetings" ],
+    "Difficulty": "2",
+    "french": "Tu habite ou?",
+    "english": "Where do you live?"
+  }
 ]
 
 

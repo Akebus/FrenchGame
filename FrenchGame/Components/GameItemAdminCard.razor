@@ -1,0 +1,49 @@
+﻿
+<BSContainer Class="@ClassName" @onmousemove="OnMouseOver" @onmouseout="OnMouseOut" @ondblclick="OnDblClick">
+    <BSRow>
+        <BSCol MD="1">@GameItem.Id</BSCol>
+        <BSCol MD="1">@GameItem.Difficulty</BSCol>
+        <BSCol MD="2">
+            @foreach(string tag in GameItem.Tags)
+            {
+                <BSBadge>@tag</BSBadge>            
+            }
+            
+        </BSCol>
+        <BSCol MD="4">@GameItem.English</BSCol>
+        <BSCol MD="4">@GameItem.French</BSCol>
+        
+    </BSRow>
+
+</BSContainer>
+
+<BSModal @ref="EditItem" >
+    <BSModalHeader HideCloseButton="false" >Id @GameItem.Id</BSModalHeader>
+    <BSModalBody></BSModalBody>
+    <BSModalFooter>
+        <BSButton Color="Color.Light">Update</BSButton>
+    </BSModalFooter>
+</BSModal>
+
+@code {
+    [Parameter]
+    public GameItemModel GameItem { get; set; }
+    BSModal EditItem = new BSModal();
+    
+    string ClassName = "admin-card";
+
+    private void OnMouseOver()
+    {
+        ClassName = "admin-card admin-card-hover";
+    }
+
+    private void OnMouseOut()
+    {
+        ClassName = "admin-card";
+    }
+
+    private void OnDblClick()
+    {
+        EditItem.Show();
+    }
+}

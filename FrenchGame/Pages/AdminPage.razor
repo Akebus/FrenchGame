@@ -1,0 +1,42 @@
+﻿@page "/" // "AdminPage"
+
+
+<h3>Admin page</h3>
+
+<BSContainer>
+    <BSRow Class="table-header">
+        <BSCol MD="1">Id</BSCol>
+        <BSCol MD="1">Difficulty</BSCol>
+        <BSCol MD="2">Tags</BSCol>
+        <BSCol MD="4">English</BSCol>
+        <BSCol MD="4">French</BSCol>
+        
+    </BSRow>
+
+    @foreach (GameItemModel gameItem in GameItems)
+    {
+        <BSRow>
+            <GameItemAdminCard GameItem="gameItem"></GameItemAdminCard>
+        </BSRow>
+    }
+</BSContainer>
+
+<table>
+    
+    <thead></thead>
+</table>
+
+
+
+@code {
+    List<GameItemModel> GameItems;
+
+
+    protected override void OnInitialized()
+    {
+        GameService gs = new GameService();
+
+        GameItems = gs.GetGameItems();
+    }
+
+}

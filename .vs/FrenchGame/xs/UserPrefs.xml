@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{E7ABA4AD-9BD7-4EE6-9D3A-0737327A04E5}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="FrenchGame/Shared/NavMenu.razor" Line="32" Column="88" />
+      <File FileName="FrenchGame/Pages/AdminPage.razor" />
+      <File FileName="FrenchGame/Pages/Index.razor" />
+      <File FileName="FrenchGame/Pages/GamePage.razor" />
+      <File FileName="FrenchGame/Components/GameItemAdminCard.razor" />
+      <File FileName="FrenchGame/Data/GameItems.json" />
+      <File FileName="FrenchGame/Models/GameItemModel.cs" />
+      <File FileName="FrenchGame/Pages/_Host.cshtml" />
+      <File FileName="FrenchGame/Models/GameItemFormModel.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FrenchGame" expanded="True" selected="True">
+            <Node name="FrenchGame" expanded="True">
+              <Node name="Components" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FrenchGame PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
