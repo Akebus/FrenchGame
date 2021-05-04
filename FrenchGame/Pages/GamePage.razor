@@ -1,0 +1,33 @@
+﻿
+
+@page "/GamePage"
+
+<h3>GamePage</h3>
+
+
+
+
+@foreach (GameItemModel gameitem in GameItems)
+{
+    
+    <GameItemCard GameItem="@gameitem"></GameItemCard>
+
+
+}
+
+
+
+@code {
+
+    List<GameItemModel> GameItems;
+
+
+    protected override void OnInitialized()
+    {
+        GameService gs = new GameService();
+
+        GameItems = gs.GetGameItems();
+    }
+
+
+}
